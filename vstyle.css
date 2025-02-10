@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #936fe8;
+}
+
+#logIn{
+    background: #654c9f;
+    color: #ffffff;
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    padding: 30px 40px;
+}
+
+#logIn h1{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#yname{
+    width: 100%;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#qU{
+    font-size: 15px;
+    text-align: center;
+    padding: 20px 50px;
+}
+
+#yN{
+    padding-left: 112px;
+    padding-bottom: 20px;
+}
+
+.chO{
+    margin:  0 10px 20px;
+}
+
+#yes{
+    cursor: pointer;
+}
+
+#no{
+    cursor: pointer;
+}
+
+#res{
+    width: 200px;
+    height: 30px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    transform: translate(28%);
+}
+
+#sub{
+    width: 200px;
+    height: 30px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    transform: translate(28%, 25%);
+}
+
+#cU{
+    color: white;
+}
+
+#buT{
+    background: none;
+    border: none;
+    margin: 0 auto;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+#maiL{
+    background: #654c9f;
+    color: #ffffff;
+    width: 800px;
+    height: 100%;
+    border-radius: 20px;
+    padding: 30px 40px;
+}
+
+#heaD{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#parA{
+    color: rgb(212, 199, 218);
+    font-size: 10px;
+    text-align: center;
+    padding: 20px 50px;
+}
+
+#parAA{
+    font-size: 25px;
+    text-align: center;
+    padding: 20px 50px;
+}
+
+#respY{
+    width: 200px;
+    height: 30px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    transform: translate(72%);
+}
+
+#respN{
+    width: 200px;
+    height: 30px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    transform: translate(85%);
+}
